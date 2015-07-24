@@ -1,0 +1,30 @@
+{
+  "name": "gulp-webpack-babel-starter",
+  "version": "0.0.1",
+  "description": "A starter project using gulp, webpack, and babel with live-reloading",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ksmithbaylor/gulp-webpack-babel-starter"
+  },
+  "author": "Kevin Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "babel-core": "^5.8.3",
+    "babel-loader": "^5.3.2",
+    "express": "^4.13.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.6",
+    "tiny-lr": "^0.1.6",
+    "webpack": "^1.10.5"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.3",
+    "react": "^0.13.3"
+  }
+}
